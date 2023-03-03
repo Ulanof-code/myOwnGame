@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
-// const apiRouter = require('./routes/restaurantApiRouter');
+const themesRouter = require('./routes/themesRouter');
 
 require('dotenv').config();
 
@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static('public'));
 
-// app.use('/api/posts', apiRouter);
+app.use('/api/themes', themesRouter);
 
 app.listen(PORT, () => {
   console.log('server start on Port', PORT);
