@@ -19,21 +19,6 @@ module.exports = {
         {
           title: 'Themvewsdaces',
         },
-        {
-          title: 'Them42634es',
-        },
-        {
-          title: 'Theme2346tsfds',
-        },
-        {
-          title: 'Them123r12vxzces',
-        },
-        {
-          title: 'Themnhes',
-        },
-        {
-          title: 'The11111mes',
-        },
       ],
       {},
     );
